@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Punjabi Dhaba | Authentic Punjabi Food in Govindpuri</title>
+  <meta name="description" content="Punjabi Dhaba - Serving delicious North Indian & Punjabi cuisine in Govindpuri, New Delhi. Fresh tandoori, rich gravies and more!"/>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Segoe UI', sans-serif; line-height:1.6; color:#333; background:#fef8f4; }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=1200&q=80') center/cover;
+      color:white; text-align:center; padding:120px 20px 80px;
+    }
+    header h1 { font-size:4rem; margin-bottom:10px; text-shadow:3px 3px 12px rgba(0,0,0,0.8); }
+    header p { font-size:1.5rem; margin-bottom:35px; }
+    .btn {
+      display:inline-block; background:#c1440e; color:white; padding:16px 36px;
+      text-decoration:none; border-radius:50px; font-weight:bold; margin:12px;
+      transition:all 0.3s;
+    }
+    .btn:hover { background:#a6370b; transform:translateY(-4px); }
+    section { padding:70px 20px; max-width:1200px; margin:0 auto; }
+    h2 {
+      text-align:center; color:#b22222; margin-bottom:45px; font-size:2.8rem; position:relative;
+    }
+    h2::after {
+      content:''; width:100px; height:5px; background:#c1440e;
+      position:absolute; bottom:-18px; left:50%; transform:translateX(-50%);
+    }
+    .info-grid {
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:35px; text-align:center;
+    }
+    .card {
+      background:white; padding:35px 25px; border-radius:15px; box-shadow:0 8px 25px rgba(0,0,0,0.12);
+      transition:transform 0.3s;
+    }
+    .card:hover { transform:translateY(-12px); }
+    .card i { font-size:3.5rem; color:#c1440e; margin-bottom:20px; }
+    .gallery-grid {
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(320px,1fr)); gap:25px;
+    }
+    .gallery-grid img {
+      width:100%; height:240px; object-fit:cover; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.15);
+    }
+    .menu-grid {
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(340px,1fr)); gap:30px;
+    }
+    .menu-item {
+      background:#fffaf5; padding:25px; border-radius:12px; border-left:6px solid #c1440e;
+    }
+    .menu-item h4 { color:#b22222; margin-bottom:12px; font-size:1.4rem; }
+    footer {
+      background:#222; color:#ddd; text-align:center; padding:50px 20px;
+    }
+    footer a { color:#ff9966; text-decoration:none; font-weight:bold; }
+    .map-link {
+      color:#c1440e; font-weight:bold; text-decoration:underline;
+    }
+    @media (max-width:700px) {
+      header h1 { font-size:3rem; }
+      header { padding:80px 15px 60px; }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Punjabi Dhaba</h1>
+    <p>Authentic Punjabi Dhaba Taste • Fresh Tandoor • Highway Style</p>
+    <a href="tel:08587891016" class="btn">Call Now: 085878 91016</a>
+    <a href="#menu" class="btn">View Menu</a>
+  </header>
+
+  <section id="about">
+    <h2>Welcome to Punjabi Dhaba</h2>
+    <p style="text-align:center; max-width:900px; margin:0 auto 50px; font-size:1.2rem;">
+      Real Punjabi swad straight from the heart of Delhi! Freshly made tandoori, creamy gravies, and desi vibe — perfect for family, friends, or late-night hunger pangs.
+    </p>
+
+    <div class="info-grid">
+      <div class="card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Location</h3>
+        <p>
+          <a href="https://maps.app.goo.gl/eSFteoWkxev6hVP78" target="_blank" class="map-link">
+            G7P8+RRP, 1, Gali Number 2, Govindpuri, New Delhi, Delhi 110019
+          </a>
+        </p>
+      </div>
+      <div class="card">
+        <i class="fas fa-clock"></i>
+        <h3>Timings</h3>
+        <p>Open Daily<br>10:00 AM – 11:00 PM</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-phone-volume"></i>
+        <h3>Contact</h3>
+        <p><a href="tel:08587891016" style="color:#c1440e;">085878 91016</a></p>
+        <p>Takeaway • Dine-in • Call for Specials</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" style="background:#fdf5ef;">
+    <h2>Our Dhaba Vibes & Dishes</h2>
+    <div class="gallery-grid">
+      <!-- Your provided photos - replace src with actual hosted image URLs (e.g., upload to imgur or your server) -->
+      <img src="YOUR_PHOTO_1_URL_HERE.jpg" alt="Special Chicken Soup / Murgh Shorba Style Dish">
+      <img src="YOUR_PHOTO_2_URL_HERE.jpg" alt="Evening at Punjabi Dhaba - Fresh Tandoori & Crowd">
+      <img src="YOUR_PHOTO_3_URL_HERE.jpg" alt="Punjabi Dhaba Entrance & Menu Board">
+      <!-- Bonus attractive food shots for appeal -->
+      <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800" alt="Tandoori Items Fresh from Clay Oven">
+      <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800" alt="Butter Chicken with Naan">
+      <img src="https://images.unsplash.com/photo-1585937433947-0b890b4d6f5a?w=800" alt="Dal Makhani & Paratha">
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Our Special Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h4>Starters</h4>
+        <p>• Paneer Tikka • Chicken Tikka<br>• Tandoori Chicken • Seekh Kebab<br>• Aloo Tikki • Veg Pakora</p>
+      </div>
+      <div class="menu-item">
+        <h4>Main Course (Veg)</h4>
+        <p>• Dal Makhani • Paneer Butter Masala<br>• Kadhai Paneer • Aloo Jeera<br>• Mix Veg • Malai Kofta • Palak Paneer</p>
+      </div>
+      <div class="menu-item">
+        <h4>Main Course (Non-Veg)</h4>
+        <p>• Butter Chicken • Chicken Tikka Masala<br>• Rara Mutton • Dhaba Chicken<br>• Egg Curry • Fish Fry</p>
+      </div>
+      <div class="menu-item">
+        <h4>Breads & Rice</h4>
+        <p>• Tandoori Roti • Butter Naan<br>• Lachha Paratha • Amritsari Kulcha<br>• Jeera Rice • Veg Pulao</p>
+      </div>
+      <div class="menu-item">
+        <h4>Dhaba Specials</h4>
+        <p>• Dhaba Dal Fry • Kadhai Chicken<br>• Rajma Masala • Chole Bhature<br>• Lassi (Sweet/Salted)</p>
+      </div>
+      <div class="menu-item">
+        <h4>Desserts</h4>
+        <p>• Gulab Jamun • Rasmalai<br>• Kheer • Ice Cream</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:50px; font-style:italic;">
+      * Menu for reference — call for today's specials, prices & availability.
+    </p>
+  </section>
+
+  <footer>
+    <p>© Punjabi Dhaba | Gali Number 2, Govindpuri, New Delhi</p>
+    <p>
+      <a href="https://maps.app.goo.gl/eSFteoWkxev6hVP78" target="_blank">Get Directions on Google Maps</a> • 
+      Contact: <a href="tel:08587891016">085878 91016</a> • Open 10 AM – 11 PM
+    </p>
+  </footer>
+
+</body>
+</html>
